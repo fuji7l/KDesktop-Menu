@@ -1,0 +1,47 @@
+This was originally written in 2005, has not been touched since 2006.  Uploaded
+here for backup or archival purposes.  If you want to get it to work on
+KDE 3.5 though, feel free and I'll gladly merge it
+
+http://kde-apps.org/content/show.php/KDesktop+Menu?content=22605
+
+
+I may get back into doing this for Plasma
+
+--- ORIGINAL README ---
+
+
+
+__( KDesktop Menu About )______________________________________________________
+
+  KDesktop Menu is a replacement menu for use with kicker (KDE).  It was
+  inspired from the Gnome menu applet.... heavily.
+
+  You will find the configuration dialog has many tool tips and "What's This?"
+  items so if you're ever curious about a setting, the information is there
+  somewhat.
+
+  If you find any bugs, please report it to rfujimoto@imap.cc
+
+__( KDesktop Menu Requirements )_______________________________________________
+
+  For the life of me, I can't figure out this auto-stuff so I couldn't hard
+  code this information.
+
+    - kdelibs 3.5 ( This applet uses kio_media and data set from the component
+                    chooser. To be safe, 3.4 is required.  It may work with 3.3
+                    though )
+    - kdebase 3.5 (kicker, libkonq, and probably more).
+    - >=qt 3.3
+
+__( KDesktop Menu Files Information )__________________________________________
+
+  Taken vertabim from the kdebase source tree:
+    - browser_mnu.cpp, browser_mnu.h          ( kicker/ui )
+    - dmctl.cpp, dmctl.h                      ( kdmlib )
+    - kicker_settings.cpp, kicker_settings.h  ( kicker/share )
+    - menuinfo.cpp, menuinfo.h                ( kicker/share )
+
+  Taken and modified
+    - menu_services.cpp, menu_services.h      ( kicker/ui/services_mnu.{cpp|h} )
+    - menu_client.cpp, menu_client.h          ( kicker/ui/client_mnu.{cpp|h})
+

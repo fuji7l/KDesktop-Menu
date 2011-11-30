@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Comment=A replacement for KMenu
+Name=KDesktop Menu
+Name[xx]=xxkdesktop_menuxx
+X-KDE-Library=kdesktop_menu_panelapplet
+X-KDE-UniqueApplet = true
+Icon=kmenu

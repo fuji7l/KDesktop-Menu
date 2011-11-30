@@ -1,0 +1,18 @@
+__( KDesktop Menu Coming Soon to a Release Near You )__________________________
+
+!!! Make KMenu Icon part of the "Programs" menu so that clicking on it will
+    popup the programs menu.  insertItem() isn't doing it, neither is creating
+    a pixmap on the fly. Qpushbutton doesn't work with the rest of the menu
+    items. (many people)
+
+  - Add a help booklet...
+
+  - Make the Trash menu item have two submenus, open the trash:/ slave for
+    browsing and empty.  (ra1n, kde-look.org)
+
+__( KDesktop Menu Features Coming Later )______________________________________
+
+  - Make KMenu Icon configurable....
+
+
+

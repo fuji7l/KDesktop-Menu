@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE kcfg SYSTEM "http://www.kde.org/standards/kcfg/1.0/kcfg.dtd">
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+
+    <include>kapplication.h</include>
+
+    <kcfgfile name="kdesktop_menurc" />
+    <group name="General">
+        <entry name="MenuFont" type="Font">
+            <label>The font used for the main KDesktop menu</label>
+            <default code="true">KGlobalSettings::menuFont()</default>
+        </entry>
+        <entry name="MenuFontColour" type="Color">
+            <label>The colour of the font for the main KDesktop menu</label>
+            <default>0,0,0</default>
+        </entry>
+        <entry name="ShowMenuIcon" type="Bool">
+            <label>Determines whether or not to show the KMenu Icon</label>
+            <default>true</default>
+        </entry>
+    </group>
+
+    <group name="Root Menus">
+        <entry name="ProgramsName" type="String">
+            <label>Alternate text for the Programs menu</label>
+            <default>Programs</default>
+        </entry>
+        <entry name="ActionsName" type="String">
+            <label>Alternate text for the Actions menu</label>
+            <default>Actions</default>
+        </entry>
+        <entry name="DesktopName" type="String">
+            <label>Alternate text for the Desktop menu</label>
+            <default>Desktop</default>
+        </entry>
+        <entry name="ShowProgramsMenu" type="Bool">
+            <label>Show the Programs menu</label>
+            <default>true</default>
+        </entry>
+        <entry name="ShowActionsMenu" type="Bool">
+            <label>Show the Actions menu</label>
+            <default>true</default>
+        </entry>
+        <entry name="ShowDesktopMenu" type="Bool">
+            <label>Show the Desktop Menu</label>
+            <default>true</default>
+        </entry>
+    </group>
+
+    <group name="Menu Items">
+        <entry name="ShowDefaultEmailClient" type="Bool">
+            <label>Show the system default email client in Programs menu</label>
+            <default>true</default>
+        </entry>
+        <entry name="UseCustomEmailClient" type="Bool">
+            <label>Use a custom email client</label>
+            <default>false</default>
+        </entry>
+        <entry name="CustomEmailClient" type="String">
+            <label>Email client set using internal configuration options</label>
+        </entry>
+        <entry name="UseTerminalCustomEmailClient" type="Bool">
+            <label>The custom email client is a terminal application</label>
+            <default>false</default>
+        </entry>
+        <entry name="ShowDefaultBrowser" type="Bool">
+            <label>Show the system default browser in the Programs menu</label>
+            <default>true</default>
+        </entry>
+        <entry name="UseCustomBrowser" type="Bool">
+            <label>Use a custom web browser</label>
+            <default>false</default>
+        </entry>
+        <entry name="CustomBrowser" type="String">
+            <label>Browser set using internal configuration options</label>
+        </entry>
+    </group>
+</kcfg>

@@ -1,0 +1,4 @@
+File=kdesktopmenu_settings.kcfg
+ClassName=KDesktopMenuSettings
+Singleton=true
+Mutators=true

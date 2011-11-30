@@ -1,0 +1,15 @@
+Install:
+
+./configure
+make
+su -c make install
+
+
+Uninstall:
+
+su -c make uninstall
+
+Suse users may have trouble with configure and undefined macro's.  The fix
+that was offered by vbdoor on KDE-Look.org was to copy the admin from 
+/opt/kde3/share/apps/kdelibs/admin over kdesktop_menu-VERSION/admin -- then
+run make -f admin/Makefile.common dist -- and finally rerun configure.

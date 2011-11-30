@@ -1,0 +1,35 @@
+__( KDesktop Menu Changelog )__________________________________________________
+
+0.3 - July 09, 2006
+  ADD: Display the KDM user face icon where the "Switch User" icon is displayed.
+  ADD: Storage Media expands to show all in media:/ (Filters out hdd/nfs/smb)
+       (rossoft, kde-look.org)
+  CHG: Make the Switch User information more human readable.
+  FIX: Crash bug when trying to edit the menu in certain instances
+  FIX: Make compile and work with KDE 3.5.X
+
+0.2.1 - June 05, 2005
+ FIX: Applet crashed on start when the kicker session was brand new.
+ CHG: Re-created the build system files in hopes of solving the undefined
+      macros problem
+
+0.2 - May 30, 2005
+  ADD: Actions and Desktop menu's contents mostly configurable.
+  ADD: Actions Menu now uses all possible menu extentions.
+  ADD: KMenu icon can now be disabled.
+  CHG: Remove need for KInstance in About stuff...
+  CHG: Reworked the class inheritance to speed up compilation.
+  FIX: The location of the menubar on a bottom horizontal panel.
+  FIX: Minor bugs were fixed.
+  FIX: User Switching wasn't working when 2+ sessions were already started
+  FIX: Many code clean ups.
+
+0.1.2 - Apr. 03, 2005
+  FIX: Infinite loop caused if the user has disabled the Side pixmap in
+       kickerrc.  What a typo heh
+
+0.1.1 - Apr. 02, 2005
+  ADD: More includes and debug statements, looking for the cause of a crash.
+
+0.1 - Apr. 02, 2005
+  Initial release.
